@@ -1,0 +1,16 @@
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.apexcharts-legend.apexcharts-align-center.apx-legend-position-right {
+  display: flex;
+  justify-content: center;
+}
+
+.card-name {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: -20px;
+}

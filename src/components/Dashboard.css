@@ -1,0 +1,158 @@
+.card {
+  padding: 2em;
+}
+
+.dashboard-heading {
+  display: flex;
+}
+.dashboard-heading h5 {
+  font-weight: bold;
+}
+
+.dashboard-heading h6 {
+  font-weight: bold;
+}
+
+.reload-btn {
+  border: 2px solid #c6c6c6;
+  padding: 4px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: white;
+}
+
+.options-btn {
+  border: 2px solid #c6c6c6;
+  padding: 4px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: white;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.widgets {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.time-passed {
+  margin-left: 10px;
+}
+
+.card-last-child {
+  height: 247px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --side nav css-- */
+
+.side-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 450px;
+  height: 100vh;
+  background-color: #eff4f9;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  transition: transform 0.3s ease-in-out;
+  z-index: 999;
+  overflow-x: hidden;
+}
+
+.side-nav.closed {
+  transform: translateX(100%);
+}
+
+.side-nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-nav-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.side-nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.side-nav-collapse {
+  list-style: none;
+  padding-left: 20px;
+  background-color: #e9ecef;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.arrow {
+  font-size: 12px;
+  margin-left: 8px;
+}
+.category-header {
+  margin: 10px 14px 10px 15px;
+  display: flex;
+}
+.widget-checkbox {
+  display: flex;
+  justify-content: start;
+  margin-left: 40px;
+  border: 2px solid #c8c8c8;
+  border-radius: 2px;
+  padding: 2px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 3px;
+}
+.side-bar {
+  display: flex;
+  justify-content: center;
+  background: #14147d;
+  padding: 10px;
+  color: white;
+}
+
+.side-bar-title {
+  display: flex;
+}
+.side-bar-icon {
+  display: flex;
+  justify-content: end;
+}
+i.fas.fa-times {
+  cursor: pointer;
+}
+.sub-head {
+  margin: 10px 0px 0px 0px;
+  font-style: normal;
+  font-weight: 200;
+}
+.side-bar-btns {
+  display: flex;
+}
+
+.side-bar-footer {
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
